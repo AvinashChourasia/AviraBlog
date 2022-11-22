@@ -179,6 +179,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Baloo Bhaina 2', cursive;
 }
 .footer::after{
     content: "";
