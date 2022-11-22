@@ -1,0 +1,48 @@
+.content{
+    height: 100vh;
+    max-width: 80vw;
+    margin: 25px auto;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.content::after{
+    content: "";
+    background-color: rgb(227, 210, 176);
+    position: absolute;
+    width: 80vw;
+    height: inherit;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+
+.content-x{
+    padding: 17px 15px;
+}
+.contact-form{
+    margin-top: 14px;
+}
+
+.form-box input,textarea{
+    width: 46vw;
+    margin: 6px auto;
+    padding: 6px 6px;
+    font-size: 16px;
+    border: 2px solid #f3b43d;
+    border-radius: 6px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.form-box .btn{
+    padding: 5px 30px;
+    background-color: white;
+    color: #f3b43d;
+    font-size: 16px;
+    border: 2px solid #f3b43d;
+    border-radius: 6px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.form-box .btn:hover{
+    color: white;
+    background-color: #f3b43d;
+}
